@@ -12,10 +12,10 @@ function handleResponse(response) {
   }
 }
 
-export function setPersons(restaurants) {
+export function setPersons(persons) {
   return {
     type: SET_PERSONS,
-    restaurants
+    persons
   }
 }
  
